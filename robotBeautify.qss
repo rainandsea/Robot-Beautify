@@ -1,0 +1,117 @@
+QWidget#mainW {
+    background-color: red;
+}
+
+QWidget#toolsBarW {
+    background-color: #222833;
+}
+
+QWidget#editW {
+    background-color: #222833;
+}
+
+QLabel[class='titleLabel'] {
+    background-color: #14181f;
+    color: #F3F7FD;
+    font: italic;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+
+QLabel#logoLabel {
+    image: url('logo.png');
+}
+
+QPushButton[class='light'] {
+    border-radius: 15px;
+}
+
+QPushButton#red {
+    background-color: red;
+}
+
+QPushButton#yellow {
+    background-color: yellow;
+}
+
+QPushButton#green {
+    background-color: #1AFA29;
+}
+
+QWidget[class='winBtn']:hover {
+    border-style: outset;
+    background-color: #699964;
+}
+
+QWidget[class='toolBarBtn'] {
+    background-color: #14181f;
+    border: 1px solid #14181f;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+QWidget[class='toolBarBtn']:hover {
+    border-style: outset;
+    background-color: #6fdaff;
+}
+
+QTabWidget::pane {
+    border: none;
+}
+
+QTabWidget::tab-bar {
+    left: 0;
+}
+
+QTabBar::tab {
+    border: none;
+    min-width: 150px;
+    min-height: 30px;
+    color: white;
+    font-size: 13px;
+    font-family: "Arial";
+}
+
+QTabBar::tab:hover {
+    background-color: #48536C;
+}
+
+QTabBar::tab:selected {
+    background-color: #2f3a4b;
+    border-top: 1px solid cyan;
+}
+
+QTabBar::close-button {
+    image: url('remove3.png');
+    padding: 4px;
+}
+
+QTabBar::close-button:hover {
+    image: url('remove4.png');
+}
+
+QPlainTextEdit {
+    background-color: #2f3a4b;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: "Courier New";
+}
+
+QWidget#numBar {
+    background-color: red;
+    text-color: white;
+}
+
+/*
+QWidget#filesListArea {
+    background-color: #2f3544;
+}
+*/
