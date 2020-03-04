@@ -1,0 +1,21 @@
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+max() arg is an empty sequence
+string index out of range
