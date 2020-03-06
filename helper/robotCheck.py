@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from PyQt5.QtCore import QThread, pyqtSignal
-from contentProcess import ContentProcess
+from .robotProcess import ContentProcess
 
 ROBOT_WARNINGS = []
 W = [
@@ -42,7 +42,7 @@ class RobotCheck(QThread):
 
             self.done.emit(ROBOT_WARNINGS)
         except Exception as e:
-            with open('log.txt', 'a+') as f:
+            with open('../log.txt', 'a+') as f:
                 f.write(str(e) + '\n')
         else:
             pass

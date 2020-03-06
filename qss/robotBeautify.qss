@@ -23,7 +23,7 @@ QLabel[class='titleLabel'] {
 }
 
 QLabel#logoLabel {
-    image: url('logo.png');
+    image: url('./images/logo.png');
 }
 
 QPushButton[class='light'] {
@@ -89,12 +89,12 @@ QTabBar::tab:selected {
 }
 
 QTabBar::close-button {
-    image: url('remove3.png');
+    image: url('./images/rmDefault.png');
     padding: 4px;
 }
 
 QTabBar::close-button:hover {
-    image: url('remove4.png');
+    image: url('./images/rmHover.png');
 }
 
 QPlainTextEdit {
