@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 
-class ContentProcess(object):
+class RobotContentProcess(object):
     def __init__(self, content=''):
-        super(ContentProcess, self).__init__()
+        super(RobotContentProcess, self).__init__()
         self.line_list = content.split('\n')
         self.__names_set = []  # only get method
         self.__names_var = []

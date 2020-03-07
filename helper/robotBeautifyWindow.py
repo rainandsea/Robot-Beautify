@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from .robotCheck import RobotCheck
-from .robotFormatter import RobotFormatter
+from .robotCheckThread import RobotCheckThread
+from .robotBeautifyThread import RobotBeautifyThread
 from .widgetFactory import QCodeEditor, WinBtn, MoveLabel, LightBtn, ToolBarBtn
 from PyQt5.Qt import QApplication
 from PyQt5.QtCore import Qt, QRegExp

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 from PyQt5.QtCore import QThread, pyqtSignal
-from .robotProcess import ContentProcess
+from .robotContentProcess import RobotContentProcess
 import re
 
 
-class RobotFormatter(QThread):
+class RobotBeautifyThread(QThread):
     done = pyqtSignal(str)
 
     def __init__(self, content):
-        super(RobotFormatter, self).__init__()
-        self.conPro = ContentProcess(content)
+        super(RobotBeautifyThread, self).__init__()
+        self.conPro = RobotContentProcess(content)
 
     def run(self):
         try:

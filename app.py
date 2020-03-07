@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from helper.robotBeautify import RobotBeautifyWindow
+from helper.robotBeautifyWindow import RobotBeautifyWindow
 from PyQt5.QtWidgets import QApplication
 import sys
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from PyQt5.QtCore import QThread, pyqtSignal
-from .robotProcess import ContentProcess
+from .robotContentProcess import RobotContentProcess
 
 ROBOT_WARNINGS = []
 W = [
@@ -15,11 +15,11 @@ W = [
 ]
 
 
-class RobotCheck(QThread):
+class RobotCheckThread(QThread):
     done = pyqtSignal(list)
 
     def __init__(self, content=''):
-        super(RobotCheck, self).__init__()
+        super(RobotCheckThread, self).__init__()
         self.conPro = ContentProcess(content)
         self.init_content = content
         self.warnings = []
